@@ -1,0 +1,15 @@
+{
+  "name": "susee-trucks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Susee Trucks Pvt. Ltd. - Authorized Tata Motors Commercial Vehicles Dealer in Tamil Nadu",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}
