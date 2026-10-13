@@ -5,8 +5,8 @@ Official website for **Susee Trucks Private Limited**, an authorized dealer for 
 ## Business Overview
 - **Dealership**: Authorized Tata Motors Commercial Vehicles Dealer
 - **Head Office**: SF No. 49 & 50, Bangalore–Chennai Highway, New Bypass Road, Vellore, Tamil Nadu – 632012, India
-- **WhatsApp / Enquiry**: +91 93447 21640
-- **Network**: Vellore (HO), Thiruvannamalai, Kanchipuram, Tirupattur, Vandavasi, Arani, Gudiyatham, Vaniyambadi, Sriperumbudur
+- **WhatsApp / Enquiry**: +91 93447 21689
+- **Network**: Vellore (HO), Thiruvannamalai, Kanchipuram, Tirupattur, Vandavasi, Arani, Gudiyatham, Vaniyambadi
 
 ## Tech Stack
 - HTML5 (Semantic, SEO Optimized, Schema.org LocalBusiness JSON-LD)

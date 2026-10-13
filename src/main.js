@@ -5,7 +5,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   // Constants
-  const WHATSAPP_PHONE = '919344721640'; // International format without spaces or symbols
+  const WHATSAPP_PHONE = '919344721689'; // International format without spaces or symbols
 
   /* -------------------------------------------------------------------------
      1. Sticky Header & Elevation on Scroll
