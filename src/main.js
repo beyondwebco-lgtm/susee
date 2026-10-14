@@ -1,3 +1,5 @@
+import { LOCATIONS } from './locations.js';
+
 /**
  * SUSEE TRUCKS PRIVATE LIMITED — OFFICIAL JAVASCRIPT
  * Authorized Tata Motors Commercial Vehicles Dealer
@@ -267,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const businessVal = businessNameInput?.value.trim() || 'Not specified';
-      const locationVal = locationSelect?.value || 'Vellore (Head Office)';
+      const locationVal = locationSelect?.value || 'Vellore, Tamil Nadu';
       const userMsgVal = messageInput?.value.trim() || 'Please share available vehicle models, catalog, and dealership details.';
 
       // Construct clean, readable WhatsApp message
@@ -285,8 +287,12 @@ I would like to enquire about Tata Motors Commercial Vehicles at Susee Trucks.
 
 Please connect with me regarding current models, specifications, and dealership consultation.`;
 
+      // Route directly to selected location sales phone, or fallback to head office
+      const selectedLoc = LOCATIONS.find(l => l.name === locationVal);
+      const targetPhone = selectedLoc ? `91${selectedLoc.sales.phone}` : WHATSAPP_PHONE;
+
       // Official WhatsApp Click-to-Chat URL
-      preparedWhatsAppUrl = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(formattedMessage)}`;
+      preparedWhatsAppUrl = `https://wa.me/${targetPhone}?text=${encodeURIComponent(formattedMessage)}`;
 
       // Show confirmation modal before opening
       if (modalOverlay) {
