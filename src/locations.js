@@ -67,7 +67,7 @@ export const LOCATIONS = [
   },
   {
     id: 'tvm',
-    name: 'Thiruvananthapuram, Kerala (TVM)',
+    name: 'Tiruvannamalai, Kerala (TVM)',
     shortCode: 'TVM',
     state: 'Kerala',
     isHeadOffice: false,
@@ -76,13 +76,13 @@ export const LOCATIONS = [
       phone: '9344721605',
       displayPhone: '+91 93447 21605',
       callUrl: 'tel:+919344721605',
-      whatsappUrl: 'https://wa.me/919344721605?text=' + encodeURIComponent('Hello, I would like to enquire about your products and sales services at Thiruvananthapuram, Kerala (TVM).')
+      whatsappUrl: 'https://wa.me/919344721605?text=' + encodeURIComponent('Hello, I would like to enquire about your products and sales services at Tiruvannamalai, Kerala (TVM).')
     },
     service: {
       phone: '9344721756',
       displayPhone: '+91 93447 21756',
       callUrl: 'tel:+919344721756',
-      whatsappUrl: 'https://wa.me/919344721756?text=' + encodeURIComponent('Hello, I need assistance with service at Thiruvananthapuram, Kerala (TVM). Please help me.')
+      whatsappUrl: 'https://wa.me/919344721756?text=' + encodeURIComponent('Hello, I need assistance with service at Tiruvannamalai, Kerala (TVM). Please help me.')
     }
   },
   {
@@ -107,7 +107,7 @@ export const LOCATIONS = [
   },
   {
     id: 'tpt',
-    name: 'Tirupati, Andhra Pradesh (TPT)',
+    name: 'Tirupattur, Andhra Pradesh (TPT)',
     shortCode: 'TPT',
     state: 'Andhra Pradesh',
     isHeadOffice: false,
@@ -116,13 +116,13 @@ export const LOCATIONS = [
       phone: '9344721626',
       displayPhone: '+91 93447 21626',
       callUrl: 'tel:+919344721626',
-      whatsappUrl: 'https://wa.me/919344721626?text=' + encodeURIComponent('Hello, I would like to enquire about your products and sales services at Tirupati, Andhra Pradesh (TPT).')
+      whatsappUrl: 'https://wa.me/919344721626?text=' + encodeURIComponent('Hello, I would like to enquire about your products and sales services at Tirupattur, Andhra Pradesh (TPT).')
     },
     service: {
       phone: '9384091125',
       displayPhone: '+91 93840 91125',
       callUrl: 'tel:+919384091125',
-      whatsappUrl: 'https://wa.me/919384091125?text=' + encodeURIComponent('Hello, I need assistance with service at Tirupati, Andhra Pradesh (TPT). Please help me.')
+      whatsappUrl: 'https://wa.me/919384091125?text=' + encodeURIComponent('Hello, I need assistance with service at Tirupattur, Andhra Pradesh (TPT). Please help me.')
     }
   },
   {
